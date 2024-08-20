@@ -1,1 +1,145 @@
+body {
+@import url('https://fonts.googleapis.com/css?family=Raleway:wght@400;700&display=swap');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0e0c0c;
+    font-family: "Raleway", sans-serif;
+    /* background-color: linear-gradient(rgba(11, 23, 134, 0.5),rgba(153, 9, 158, 0.5)); */
+}
 
+.bodym {
+    text-align:center;
+}
+
+h1 {
+    color: white;
+    display: inline-flex;
+    padding-bottom: 25px;
+}
+
+p {
+    display: inline-flex;
+    color: white;
+}
+
+
+
+.foter {
+    padding-top: 20px;
+}
+
+.footer p {
+    font-size: 10px;
+    color: gray;
+}
+
+.footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.typing-indicator {
+    background-color: #0e0c0c;
+    color: white;
+    padding: 5px;
+}
+
+.user-message {
+    background-color: royalblue;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    display: table;
+    clear: both;
+    margin: 10px;
+    border-radius: 10px;
+    float: right;
+    text-align: left;
+    width:fit-content;
+    position: right;
+
+}
+
+.error-message {
+    /* #121823 */
+    background-color: #121823;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    display: table;
+    clear: both;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    width: fit-content;
+    border: none;
+    
+}
+
+.bot-message {
+    /* #333333 */
+    background-color: #333333;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 2px;
+    margin-left: 10px;
+    display: table;
+    clear: both;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.buttonBox {
+    /* background-color: royalblue; */
+    background: linear-gradient(to right, royalblue, purple);
+    color: white;
+    padding: 10px;
+    width: 52px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.buttonBox:hover {
+    background: linear-gradient(to left, royalblue, purple);
+    color: white;
+    padding: 10px;
+    cursor:pointer;
+    width: 52px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s ease-in;
+    
+}
+
+.textBox {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width:80%;
+}
+
+@media screen and (max-width: 445px) {
+
+    .buttonBox {
+        display: none;
+    }
+
+    h1 {
+        color: white;
+        display: inline-flex;
+        padding-bottom: 10px;
+    }
+    
+    p {
+        display: inline-flex;
+        color: white;
+    }
+
+}
